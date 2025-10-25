@@ -1,6 +1,6 @@
 import { TranslationObject } from 'ontime-types';
 
-export const langDe: TranslationObject = {
+export const langJa: TranslationObject = {
   'common.expected_finish': '予定終了時刻',
   'common.minutes': '分',
   'common.seconds': '秒',
