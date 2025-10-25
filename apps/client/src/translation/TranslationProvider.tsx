@@ -10,6 +10,7 @@ import { langEs } from './languages/es';
 import { langFr } from './languages/fr';
 import { langIt } from './languages/it';
 import { langPt } from './languages/pt';
+import { langJa } from './languages/ja';
 
 const translationsList = {
   en: langEn,
@@ -18,6 +19,7 @@ const translationsList = {
   it: langIt,
   de: langDe,
   pt: langPt,
+  ja: langJa,
 };
 
 export type TranslationKey = keyof typeof langEn;
